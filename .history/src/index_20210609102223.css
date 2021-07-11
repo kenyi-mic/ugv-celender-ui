@@ -1,0 +1,12 @@
+/* index.js and index.html styles*/
+
+.navbar {
+  display: flex;
+  background-color: blue;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding:5;
+}
+li 

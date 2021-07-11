@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+span {
+  margin: 15px;
+  font-size: 25px;
+  font-weight: 200;
+}
+ul {
+  margin: 15px;
+}
+.contacts {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  width: 90%;
+  margin: 15px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 764px) {
+  .links {
+    display: inline-block;
+  }
+  .links a {
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+}

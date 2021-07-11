@@ -1,0 +1,17 @@
+/* index.js and index.html styles*/
+
+.navbar {
+  display: flex;
+  background-color: blue;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+li a {
+  margin: 5px;
+  color: #fff;
+  text-decoration: none;
+}

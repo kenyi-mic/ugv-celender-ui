@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.carousel {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.carousel img {
+  background: red;
+  margin: auto;
+  width: 34%;
+}
+
+@media screen and (max-width: 764px) {
+  .carousel .building {
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .carousel img {
+    background: red;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 410px) {
+  .carousel {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 0px 0px;
+  }
+  .carousel img {
+    background: red;
+    margin: auto;
+    width: 7.8em;
+  }
+} */

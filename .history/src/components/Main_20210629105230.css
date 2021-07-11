@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.text {
+  text-align: center;
+  line-height: 25px;
+}
+.header {
+  color: red;
+  font-size: 65px;
+  margin: 25px 0px;
+  font-family: "Mandali", sans-serif;
+}
+
+.city {
+  color: red;
+  font-size: 65px;
+  margin: 25px 0px;
+  font-weight: 400;
+  font-family: "baloo", sans-serif;
+}

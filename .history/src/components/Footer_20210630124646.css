@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.footer {
+  display: flex;
+  background-color: rgb(223, 223, 223);
+}
+.logo {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+
+  padding: 12px;
+}
+
+.courses {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.dpt {
+  border-left: 4px solid #ccc;
+}

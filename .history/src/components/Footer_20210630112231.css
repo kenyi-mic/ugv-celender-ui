@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.footer {
+  display: flex;
+  background-color: gray;
+}
+.logo {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+
+  padding: 12px;
+}

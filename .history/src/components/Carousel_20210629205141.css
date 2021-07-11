@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.carousel {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+img {
+  background: red;
+  margin: 0px;
+}

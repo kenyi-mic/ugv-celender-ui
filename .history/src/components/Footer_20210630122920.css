@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.footer {
+  display: flex;
+  background-color: rgb(223, 223, 223);
+}
+.logo {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+
+  padding: 12px;
+}
+
+.courses {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.dpt {
+  border-left: 4px solid rgb(165, 247, 165);
+  margin: auto;
+}
+.emba {
+  border-left: 4px solid rgb(165, 247, 165);
+}

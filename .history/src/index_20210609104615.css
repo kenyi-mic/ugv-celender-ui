@@ -1,0 +1,35 @@
+/* index.js and index.html styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 5px 0px;
+  background-color: blue;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  position: relative;
+  left: 35rem;
+}
+li a {
+  margin: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: cursive;
+}
+li a::after {
+  content: " ";
+  width: 20px;
+  color: #fff;
+  margin-left: 3px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: grey;
+}

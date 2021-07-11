@@ -1,0 +1,6 @@
+/* index.js and index.html styles*/
+
+.navbar {
+  display: flex;
+  background-color: blue;
+}

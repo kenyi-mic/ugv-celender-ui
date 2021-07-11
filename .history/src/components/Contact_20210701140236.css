@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+span {
+  margin: 15px;
+  font-size: 25px;
+  font-weight: 200;
+}
+ul {
+  margin: 15px;
+}
+.contacts {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 30px 0px;
+}
+li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.links a {
+  width: 100%;
+  margin: 15;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.map,
+.phone,
+globe,
+at,
+facebook {
+  font-size: 34px;
+}
+
+.contactIcons {
+  display: flex;
+}
+/* small screens and medium*/
+@media screen and (max-width: 768px) {
+  li {
+    list-style-type: none;
+    font-size: 15px;
+  }
+  span {
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .contacts {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+  }
+  .links {
+    display: inline-block;
+  }
+  .links a {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.contacts {
+  width: 90%;
+  margin: auto;
+}
+li {
+  list-style-type: none;
+  margin: 15px 0px;
+}

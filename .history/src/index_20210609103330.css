@@ -1,0 +1,24 @@
+/* index.js and index.html styles*/
+
+.navbar {
+  display: flex;
+  background-color: blue;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  position: relative;
+  left: 35rem;
+}
+li a {
+  margin: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: grey;
+}

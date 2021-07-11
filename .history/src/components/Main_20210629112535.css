@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background: rgb(222, 220, 230);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.text {
+  text-align: center;
+}
+.header {
+  color: red;
+  font-size: 65px;
+  margin: 25px 0px;
+  font-weight: 800;
+  font-family: sans-serif, "Mandali", sans-serif;
+}
+
+.city {
+  color: red;
+  font-size: 40px;
+  margin: 15px 0;
+  font-weight: 300;
+  font-family: "baloo", sans-serif;
+}
+
+.subheader {
+  font-size: 37px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 100%;
+  }
+  .header {
+    color: red;
+    font-size: 30px;
+    margin: 7px 0px;
+    font-weight: 400;
+    font-family: "Mandali", sans-serif;
+  }
+  .city {
+    color: red;
+    font-size: 20px;
+    margin: 7px 0;
+    font-weight: 200;
+  }
+  .subheader {
+    font-size: 12px;
+    font-weight: 200;
+  }
+}
